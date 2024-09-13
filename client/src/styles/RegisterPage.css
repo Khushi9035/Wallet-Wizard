@@ -1,0 +1,44 @@
+.register-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://media.istockphoto.com/id/1455567564/photo/empty-room-interior-background-beige-stucco-wall-vases-and-palm-leaf-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=m9mZ8-k3W_bZ6bzgDDz8j1ykjMpLHpvLGJs2Z8BAj-0=");
+    background-size: cover;
+    /* background-image: linear-gradient(to right, #080b33, #12296d, #6090b7); */
+  }
+  .register-form {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .register-form h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #e8e8e8;
+  }
+  
+  .register-form a {
+    color: #b87333 !important;
+  }
+  
+  .register-form a:hover {
+    color: black !important;
+  }
+  
+  .register-form button {
+    background-color: #b87333;
+    color: white;
+  }
+  
+  .register-form input:focus {
+    border: 1px solid #d3cfcb !important;
+    color: #f7f7f7;
+  }
+  .register-form button:hover {
+    background-color: black;
+    color: white;
+  }

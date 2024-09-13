@@ -1,0 +1,126 @@
+/* General Layout */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .filters h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Select and Range Picker */
+  .ant-select {
+    width: 200px;
+  }
+  
+  .filter-tab {
+    margin-left: 20px;
+  }
+  
+  .filters div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Icons Styling */
+  .switch-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .switch-icons .active-icon {
+    color: #1890ff;
+  }
+  
+  .switch-icons .inactive-icon {
+    color: #bfbfbf;
+  }
+  
+  .mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Table Styling */
+  .content {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Rows */
+  .ant-table {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #fafafa;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .ant-table-tbody > tr > td {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Modal Styling */
+  .ant-modal-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .ant-modal-content {
+    padding: 20px;
+  }
+  
+  .ant-modal-footer {
+    display: none;
+  }
+  
+  /* Form Styling */
+  .ant-form-item-label > label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .ant-input, .ant-select-selector {
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #40a9ff;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-end {
+    justify-content: flex-end;
+  }
+  
