@@ -39,5 +39,32 @@
    cd client
    npm install
    ```
+3. **Environment Variables**:
+   Create a `.env` file in the root of the `server` directory and add the following:
+   ```env
+   PORT=5000
+   MONGO_URI=your_mongo_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+4. **Start the Application**:
+   - Start the backend server:
+     ```bash
+     cd server
+     npm start
+     ```
+   - Start the frontend:
+     ```bash
+     cd client
+     npm start
+     ```
+    - run concurrently:
+     ```bash
+      npm run dev
+     ```
+5. **Access the Application**:
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
 
 
