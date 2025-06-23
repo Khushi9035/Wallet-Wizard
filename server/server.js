@@ -21,6 +21,12 @@ app.use(cors());
 //user routes
 app.use('/api/v1/users',require('./routes/userRoute'))
 
+app.get('/', (req, res) => {
+    res.send({
+        activeStatus: true,
+        error:false,
+        })
+})
 //transection routes
 app.use('/api/v1/transections',require('./routes/transectionRoute'))
 
