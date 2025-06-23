@@ -26,3 +26,36 @@
 git clone https://github.com/Khushi9035/Wallet-Wizard.git
 cd Wallet-Wizard
 
+```
+### 2. Install Dependencies 
+
+```bash
+cd server
+npm install
+cd ../client
+npm install
+
+```
+
+### 3.Set Environment Variables
+
+```bash
+PORT=8080
+MONGO_URI=your_mongo_connection_string
+```
+
+### 4. Run the Application
+
+```bash
+cd server
+npm start
+
+cd ../client
+npm start
+
+npm run dev
+```
+
+### 5.Open your browser and go to:
+```bash
+http://localhost:3000
